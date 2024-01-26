@@ -1,0 +1,347 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+
+.h1PerfilBike{
+    color: rgb(0, 162, 255);
+    left: none;
+    margin-left: none;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+/* perfilBike */
+.perfilBike {
+    width: 70vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    position: relative;
+}
+/* foto */
+.fotoPerfilBike {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    margin: 50px;
+    margin-top: 60px;
+    margin-left: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagemPerfilBike {
+    min-width: 360px;
+    width: 24vw;
+    min-height: 260px;
+    height: 17.33vw;
+    border: 2px solid rgb(0, 162, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mudarimagemPerfilBike {
+    min-width: 360px;
+    width: 24vw;
+    min-height: 260px;
+    height: 17.33vw;
+    display: flex;
+    border: 2px solid rgb(0, 162, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoMudarImagemBike{
+    min-width: 360px;
+    width: 24vw;
+    min-height: 260px;
+    height: 17.33vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+
+
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.nomePerfilBike {
+    width: fit-content;
+    color: rgb(0, 162, 255);
+    font-size: 25px;
+    left: 0;
+    margin: 35px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.btns{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btnPerfilBike{
+    color: rgb(0, 162, 255);
+    background-color: white;
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 25px;
+    transition: 0.2s ease;
+    height: 60px;
+    margin-top: 20px;
+    width: fill;
+    font-size: 18px;
+
+    &:hover{
+        color: white;
+        background-color: rgb(0, 162, 255);
+        border: 2px solid rgb(0, 162, 255);
+        cursor: pointer;
+    }
+}
+
+.excluir{
+    background-color: white;
+    color:rgb(255, 84, 84);
+    border: 2px solid rgb(255, 84, 84);
+    width: 40%;
+
+    &:hover{
+        background-color: rgb(255, 84, 84);
+        color: white;
+        border: 2px solid rgb(255, 84, 84);
+        cursor: pointer;
+    }
+}
+
+/* informações da bike */
+
+.infosPerfilBike {
+    height: fit-content;
+    margin: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: fill;
+}
+
+.infoPerfilBike {
+    height: 80px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    margin-right: 0;
+    
+}
+
+.secaoPerfilBike {
+    width: fit-content;
+    height: 40px;
+    font-weight: 700;
+}
+
+.textoPerfilBike {
+    height: 40px;
+    background-color: rgb(214, 214, 214);
+    font-weight: 400;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 17px;
+    border: none;
+    width: 100%;
+}
+
+.maisPerfilBike {
+    height: 70px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    width: 150px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: white;
+    color: rgb(0, 162, 255);
+    border: 2px solid rgb(0, 162, 255);
+    transition: 0.2s ease;
+
+    &:hover {
+        background-color: rgb(0, 162, 255);
+        color: white;
+        border: 2px solid rgb(0, 162, 255);
+    }
+}
+
+/* ============ DESKTOP ============= */
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+}
+
+/* ============ TABLET ============= */
+
+@media (min-width: 0px) and (max-width: 1023.99px) {
+
+    .perfilBike {
+        width: 75vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        position: relative;
+    }
+
+    .fotoPerfilBike {
+        width: fill;
+        height: fit-content;
+        margin: 50px;
+        margin-left:0px ;
+        margin-right:0px ;
+        margin-top: 60px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .imagemPerfilBike {
+        width: 360px;
+        height: 260px;
+        border: 2px solid rgb(0, 162, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .mudarimagemPerfilBike {
+        width: 360px;
+        height: 260px;
+        display: flex;
+        border: 2px solid rgb(0, 162, 255);
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .botaoMudarImagemBike{
+        width: 360px;
+        height: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: transparent;
+    
+    
+    
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    
+    .nomePerfilBike {
+        width: fit-content;
+        color: rgb(0, 162, 255);
+        font-size: 25px;
+        left: 0;
+        margin: 35px;
+        margin-bottom:20px;
+        text-align: center;
+    }
+    
+    .btns{
+        width: fill;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .btnPerfilBike{
+        color: rgb(0, 162, 255);
+        background-color: white;
+        border: 2px solid rgb(0, 162, 255);
+        border-radius: 25px;
+        transition: 0.2s ease;
+        height: 60px;
+        margin-top: 20px;
+        width: fill;
+        font-size: 18px;
+
+        
+        &:hover{
+            color: white;
+            background-color: rgb(0, 162, 255);
+            border: 2px solid rgb(0, 162, 255);
+            cursor: pointer;
+        }
+
+    }
+
+    .excluir{
+        background-color: white;
+        color:rgb(255, 84, 84);
+        border: 2px solid rgb(255, 84, 84);
+        width: 40%;
+    
+        &:hover{
+            background-color: rgb(255, 84, 84);
+            color: white;
+            border: 2px solid rgb(255, 84, 84);
+            cursor: pointer;
+        }
+    }
+
+    .infosPerfilBike{
+        width: fit-content;
+        margin: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .infoPerfilBike{
+        width: 75vw;
+        margin: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+        flex-direction: column;
+    }
+
+    .secaoPerfilBike{
+        width: 75vw;
+        font-size: 20px;
+    }
+
+    .textoPerfilBike {
+        height: 40px;
+        background-color: rgb(214, 214, 214);
+        font-weight: 400;
+        padding: 5px;
+        padding-left: 15px;
+        font-size: 17px;
+        border: none;
+        width: 75vw;
+    }
+}
+
+/* ============ MOBILE ============= */
+
+@media (min-width: 0px) and (max-width: 767.99px) {
+    
+}
