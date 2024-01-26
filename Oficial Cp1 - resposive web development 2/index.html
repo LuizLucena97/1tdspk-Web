@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP1 - Responsive Web Devlopment</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="body">
+
+        <section class="nav-inserir">
+            <div class="conteiner-inserir">
+                <div class="tabela-inserir">
+                    <div class="titulo-inserir">
+                        <h1 id="titulos-tabela">Criar Tarefa</h1>
+                    </div>
+                    <main class="main-inserir">
+                        <div class="inserir">
+                            <div class="atributos">Tarefa</div>
+                                <div class="atributos-inserir"><input type="text" name="tarefa"></div>
+                                
+                            <div class="atributos">Descrição</div>
+                                <div class="atributos-inserir"><input type="text" name="descricao"></div>
+                               
+                            <div class="atributos">Autor</div>
+                                <div class="atributos-inserir"><input type="text" name="autor"></div>
+                                
+                            <div class="atributos">Departamento</div>
+                                <div class="atributos-inserir"><input type="text" name="departamento"></div>
+                            
+                            <div class="atributos">Importância</div>
+                                <div class="atributos-inserir"><input type="text" name="importancia"></div>
+                               
+                            <div class="atributos">Valor</div>
+                                <div class="atributos-inserir"><input type="text" name="valor"></div>
+                              
+                            <div class="atributos">Duração</div>
+                                <div class="atributos-inserir"><input type="text" name="duracao"></div>
+                        <div>                        
+                    </main>
+    
+                    <div class="botao-inserir">
+                        <button id="botao-criar-tarefa">Criar Tarefa</button>
+                    </div>
+                </div>        
+            </div>
+        </section>
+
+        <section class="lista-tarefas">
+            <div class="conteinerStyle" >
+                <div class="conteiner-tarefas">
+                    <div class="tabela-tarefas">
+                        <div class="header-class">
+                            <h1 id="titulos-tabela">Lista de Tarefas</h1>
+                        </div>
+                        <main class="main-tarefas">
+                            <table>
+                                <thead class="cabecalho-tabela">
+                                    <tr>
+                                        <th class="concluida"></th>
+                                        <th class="atributos">Tarefa</th>
+                                        <th class="atributos">Descrição</th>
+                                        <th class="atributos">Autor</th>
+                                        <th class="atributos">Departamento</th>
+                                        <th class="atributos">Importância</th>
+                                        <th class="atributos">Valor</th>
+                                        <th class="atributos">Duração</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                
+                                </tbody>
+                            </table>
+                        </main>    
+                    </div>
+                </div>
+            </div>
+            
+            <section class="tarefas-por">
+                <article class="tarefas-por-article">
+                        <div class="tabela-concluidas">
+                            <header class="titulo-concluidas">
+                                <h1 id="titulos-tabela">Tarefas Concluídas</h1>
+                            </header>
+                            <main class="main-concluidas">
+                                <table>
+                                    <thead class="cabecalho-tabela">
+                                        <tr>
+                                            <th class="concluida"></th>
+                                            <th class="atributos">Tarefa</th>
+                                            <th class="atributos">Descrição</th>
+                                            <th class="atributos">Autor</th>
+                                            <th class="atributos">Departamento</th>
+                                            <th class="atributos">Importância</th>
+                                            <th class="atributos">Valor</th>
+                                            <th class="atributos">Duração</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                            
+                                    </tbody>
+                                </table>
+                            </main>    
+                        </div>
+                </article>
+                <article class="tarefas-por-article">
+                    <div class="tabela-Importancia">
+                        <header class="titulo-importancia">
+                            <h1 id="titulos-tabela">Tarefas por importância</h1>
+                        </header>
+                        <main class="main-importancia">
+                            <table>
+                                <thead class="cabecalho-tabela">
+                                    <tr>
+                                        <th class="atributos">Descrição</th>
+                                        <th class="atributos">Importância</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                
+                                </tbody>
+                            </table>
+                        </main>    
+                    </div>
+                </article>
+            </section>
+        </section>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
