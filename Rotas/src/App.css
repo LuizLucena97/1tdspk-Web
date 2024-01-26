@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 8vh;
+  background-color: royalblue;
+
+  & a{
+    color: white;
+    font-size: 1.5em;
+    padding: 15px;
+
+    &:hover{
+      color: purple;
+    }
+  }
+}
+
+main{
+  display: inline-flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 87vh;
+  padding: 0px;
+
+  & .card-promo{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(250, 255, 255);
+    height: 80%;
+    width: 25%;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px 5px rgb(224, 224, 224);
+
+    & img{
+      height: 80%;
+    }
+
+  }
+  
+}
+
+.lista-itens{
+  display: inline-flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 87vh;
+  padding: 0px;
+
+  & .conteiner-1{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 50%;
+    padding: 20px;
+    align-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+
+  }
+  
+
+  & .conteiner-2{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 50%;
+    padding: 20px;
+
+  }
+
+  & .card-itens{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(250, 255, 255);
+    height: 100%;
+    width: 25%;
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 2px 2px 5px 5px rgb(224, 224, 224);
+
+    & img{
+      height: 60%;
+    }
+  }
+  
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 5vh;
+  background-color: darkblue;
+}
