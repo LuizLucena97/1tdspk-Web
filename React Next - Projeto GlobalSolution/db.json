@@ -1,0 +1,65 @@
+{
+  "doacoes": [
+    {
+      "nome_completo": "fe",
+      "email": "felipeguedes@gmail.com",
+      "telefone": "2231244123",
+      "forma_pagamento": "cartao",
+      "valor": "234",
+      "id": 1
+    }
+  ],
+  "profissionais": [
+    {
+      "nome_profissional": "Fulano",
+      "rm_profissional": "RM1",
+      "senha": "Senha1",
+      "foto": "exemplo",
+      "id": 1
+    }
+  ],
+  "salas": [
+    {
+      "nome_profissional": "Fulano",
+      "rm_profissional": "RM1",
+      "senha": "Senha1",
+      "foto": "exemplo",
+      "id": 1,
+      "mensagens": [
+        {
+          "id": 1,
+          "conteudo": "iae doutor",
+          "email": "felipeguedes@gmail.com"
+        }
+      ]
+    }
+  ],
+  "clientes": [
+    {
+      "nm_completo": "Felipe guuedes",
+      "email": "felipeguedes@gmail.com",
+      "senha": "teste",
+      "telefone": "1199003289",
+      "cpf": "22222222222",
+      "id": 1,
+      "imagemPerfil": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAADElEQVQImWP4L28KAAN0AVQxdyWPAAAAAElFTkSuQmCC"
+    },
+    {
+      "nm_completo": "João Paiva",
+      "email": "rm550906@fiap.com.br",
+      "senha": "444",
+      "telefone": "1199003289",
+      "cpf": "22222222124",
+      "id": 2
+    },
+    {
+      "nm_completo": "fulana",
+      "email": "joaoteste@gmail.com",
+      "senha": "32",
+      "telefone": "1199003289",
+      "cpf": "551220938640928634",
+      "id": 3,
+      "imagemPerfil": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAADElEQVQImWP4L28KAAN0AVQxdyWPAAAAAElFTkSuQmCC"
+    }
+  ]
+}
